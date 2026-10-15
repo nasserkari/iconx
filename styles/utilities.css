@@ -11,6 +11,26 @@
     border-width: 0;
   }
 
+  html,
+  body {
+    overscroll-behavior: none;
+    touch-action: manipulation;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .scroller {
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    overscroll-behavior-y: contain;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .scroller {
+      scroll-behavior: auto;
+    }
+  }
+
   .toolbar {
     width: env(titlebar-area-width, 100%);
     height: env(titlebar-area-height, calc(var(--spacing) * 18));
