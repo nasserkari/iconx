@@ -1,4 +1,4 @@
-@layer fonts {
+@layer app.fonts {
   @font-face {
     font-family: "Lilex";
     font-display: block;

@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-@import "./fonts.css";
-@import "./tokens.css";
-@import "./reset.css";
-@import "./utilities.css";
+@layer app.fonts, app.tokens, app.reset, app.utilities;
 
-@layer fonts, tokens, reset, utilities;
+@import "./fonts.css" layer(app.fonts);
+@import "./tokens.css" layer(app.tokens);
+@import "./reset.css" layer(app.reset);
+@import "./utilities.css" layer(app.utilities);

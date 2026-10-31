@@ -1,4 +1,4 @@
-@layer utilities {
+@layer app.utilities {
   .sr-only {
     position: absolute;
     width: 1px;

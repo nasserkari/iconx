@@ -82,7 +82,7 @@
   initial-value: 1000;
 }
 
-@layer tokens {
+@layer app.tokens {
   :root,
   :host {
     --spacing: 0.25rem;
