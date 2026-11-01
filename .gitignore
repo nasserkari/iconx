@@ -1,7 +1,32 @@
-# Editor and IDE settings
+# Dependencies
+node_modules/
+
+# Build and package output
+*.tgz
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+.env.*
+!.env.example
+
+# Editors
 .vscode/
 .idea/
 .zed/
 
+# Misc
+coverage/
+*.log
+
+# Os
+.DS_Store
+Thumbs.db
+
 # Vercel
-.vercel
+.vercel/
