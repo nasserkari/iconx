@@ -8,5 +8,8 @@
   "keywords": [],
   "author": "Nasser Karinganire",
   "license": "MIT",
-  "type": "module"
+  "type": "module",
+  "engines": {
+    "node": "26.x"
+  }
 }
