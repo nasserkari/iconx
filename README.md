@@ -1,5 +1,18 @@
-# Iconx
+```text
+      ██╗ ██████╗ ██████╗ ███╗   ██╗██╗  ██╗
+      ██║██╔════╝██╔═══██╗████╗  ██║╚██╗██╔╝
+      ██║██║     ██║   ██║██╔██╗ ██║ ╚███╔╝ 
+      ██║██║     ██║   ██║██║╚██╗██║ ██╔██╗ 
+      ██║╚██████╗╚██████╔╝██║ ╚████║██╔╝ ██╗
+      ╚═╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝
+```
 
-## Icon display size testing across different devices, screen sizes, and browsers
+Icon display size testing
 
-This repository contains tests for icon display sizes across various devices, screen sizes, and browsers. The goal is to ensure that icons are displayed consistently and correctly regardless of the platform being used.
+## What it tests
+
+- Icon sizes across devices
+- Layout at different screen sizes
+- Rendering in major browsers
+- Sharpness at 1x, 2x, and 3x pixel density
+- Consistent scaling and alignment
